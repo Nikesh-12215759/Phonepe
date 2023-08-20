@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-iphone {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+/*footer**/
+.footer {
+  margin-top: 15px;
+}
+.footer-panel1 {
+  background-color: #6739b6;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 5 rem;
+  padding-top: 10px;
+}
+.footer-panel2 {
+  background-color: rgb(247, 249, 251);
+  color: black;
+  height: 300px;
+  display: flex;
+  margin-right: 10px;
+}
+ul a {
+  display: block;
+  font-size: 0.86rem;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+ul p {
+  margin-left: 100px;
+}
+.foot-panel3 {
+  background-color: white;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background-image: url("images/amazon_logo.png");
+  background-size: cover;
+  width: 100px;
+
+  height: 50px;
+}
+.foot-panel4 {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100px;
+  margin-left: 100px;
+}
+.pages {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 25px;
+}
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+  padding-top: 5px;
+}
+.panel-ops a {
+  color: #cccccc;
+  text-decoration: none;
+}
+.panel-ops:hover a {
+  border: 2px solid white;
+}
+.panel-deals a {
+  color: #cccccc;
+  text-decoration: none;
+}
+.panel:hover a {
+  border: 2px solid white;
+}
